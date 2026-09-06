@@ -12,7 +12,7 @@ export interface ClusterCredential {
 }
 
 export interface ClusterArgs {
-    /** single_node (default) | redis | nats | consul | etcd. */
+    /** single_node (default) | redis | nats. */
     backend?: string;
     /** Per-backend connection config. MUST be empty for single_node, non-empty otherwise. */
     config?: { [key: string]: any };
