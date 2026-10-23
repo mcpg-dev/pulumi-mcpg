@@ -1,6 +1,6 @@
 {
   "name": "@mcpg-dev/pulumi",
-  "version": "0.1.0-beta.41",
+  "version": "0.1.0-beta.42",
   "repository": "https://github.com/mcpg-dev/pulumi-mcpg",
   "description": "Opinionated Pulumi components for MCPG (operator, gateway, tenant, trust).",
   "license": "Apache-2.0",
@@ -11,9 +11,9 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@mcpg-dev/pulumi-crds": "0.1.0-beta.41",
+    "@mcpg-dev/pulumi-crds": "0.1.0-beta.42",
     "@pulumi/kubernetes": "4.34.2",
-    "@pulumi/pulumi": "^3.268.0"
+    "@pulumi/pulumi": "^3.270.0"
   },
   "devDependencies": {
     "@types/node": "^20",
